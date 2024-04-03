@@ -1,0 +1,12 @@
+.header{
+    background-color: aqua;
+    border-bottom: 1px solid gray;    
+}
+.head{
+    text-align: left;
+    margin-left: 5rem;
+    padding-right: 3rem;
+    padding-top: 1.6rem;
+    margin-bottom: 2rem;
+}
+

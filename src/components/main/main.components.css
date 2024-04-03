@@ -1,0 +1,65 @@
+.box{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 2rem;
+    padding: 4rem;
+    margin-left: 20rem;
+    border-radius: 5px;
+}
+.info p span{
+    text-align: left;
+    font-weight: bold;
+}
+.country-but{
+    padding: 0.3rem 0.4rem;
+    background-color: teal;
+    border: 0;
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 3px;
+    margin-left: -4rem;
+    cursor: pointer;
+}
+.info{
+    margin-top: 1.6rem;
+}
+.dark-but{
+    margin-top: 2rem;
+    position: fixed;
+    right: 3.2rem;
+    top: 11rem;
+    cursor: pointer;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid #141414;
+    /* background-color: #141414; */
+    color: #141414;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.dark{
+    background-color: #141414;
+    color: white;
+    transition: 1s all ease;
+   
+}
+.dark-styles{
+    color: white;
+    background-color: #141414;
+    border: 1px solid white;
+    transition: 1s all ease;
+
+}
+.box-styles{
+    border: 2px solid white;
+    background: #141414;
+    transition: 1s all ease;
+}
+.main-box{
+    padding: 3.2rem;
+}

@@ -1,0 +1,11 @@
+.footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: turquoise;
+    padding: 1.5rem;
+    border-top: 1px solid gray;
+    
+}

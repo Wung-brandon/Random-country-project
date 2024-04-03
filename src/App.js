@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { Header, Footer, MainCard } from './components';
 import './App.css';
+import { useState } from 'react';
+
 
 function App() {
+  const [isDark, setDark] = useState(false)
+
+  function toggleBackground(){
+    setDark(prevDark => !prevDark)
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${isDark ? "dark" : ""}`}>
+      <Header isDark={isDark}/>
+      <MainCard isDark={isDark} toggle={toggleBackground}/>
+
+      <Footer isDark={isDark}/>
+
     </div>
   );
 }
